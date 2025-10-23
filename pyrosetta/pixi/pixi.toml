@@ -11,7 +11,10 @@ version = "0.1.0"
 
 [dependencies]
 pyrosetta = "*"
-pyrosetta-distributed = { version="*", source="pypi" }
+
+
+[pypi-dependencies]
+pyrosetta-distributed = "*"
 
 
 [feature.py310.dependencies]
