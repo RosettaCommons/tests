@@ -9,37 +9,43 @@ version = "0.1.0"
 
 [tasks]
 
-#[dependencies]
+[dependencies]
+#python = "3.13.*"
+pyrosetta = "*"
 
 
 [pypi-dependencies]
 pyrosetta-distributed = "*"
 
 
-[feature.py310.dependencies]
-python = "3.10.*"
-pyrosetta = "*"
-
-[feature.py311.dependencies]
-python = "3.11.*"
-pyrosetta = "*"
-
-[feature.py312.dependencies]
-python = "3.12.*"
-pyrosetta = "*"
-
+# [feature.py310.dependencies]
+# python = "3.10.*"
+# pyrosetta = "*"
+#
+# [feature.py311.dependencies]
+# python = "3.11.*"
+# pyrosetta = "*"
+#
+# [feature.py312.dependencies]
+# python = "3.12.*"
+# pyrosetta = "*"
+#
 [feature.py313.dependencies]
 python = "3.13.*"
-pyrosetta = "*"
-
-[feature.py314.dependencies]
-python = "3.14.*"
-pyrosetta = "*"
+# pyrosetta = "*"
+#
+# [feature.py314.dependencies]
+# python = "3.14.*"
+# pyrosetta = "*"
+#
+#
+# [environments]
+# py310 = ["py310"]
+# py311 = ["py311"]
+# py312 = ["py312"]
+# py313 = ["py313"]
+# py314 = ["py314"]
 
 
 [environments]
-py310 = ["py310"]
-py311 = ["py311"]
-py312 = ["py312"]
 py313 = ["py313"]
-py314 = ["py314"]
